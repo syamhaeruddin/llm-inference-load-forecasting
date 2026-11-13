@@ -18,6 +18,10 @@ authors:
     given-names: William
     affiliation: "Universitas Internasional Batam"
 license: MIT
+version: "1.0.1"
+doi: 10.5281/zenodo.24189585
+repository-code: "https://github.com/syamhaeruddin/llm-inference-load-forecasting"
+url: "https://doi.org/10.5281/zenodo.24189585"
 preferred-citation:
   type: article
   title: "When Does Workload Forecasting Pay Off? A Cross-Provider Benchmark of LLM Inference Load with a Regime-Safe Combiner Selector"

@@ -1,10 +1,15 @@
 # LLM Inference Load Forecasting: When Does It Pay Off?
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24189585.svg)](https://doi.org/10.5281/zenodo.24189585)
+
 Code, processed series, and experiment results for the manuscript
 
 > Haeruddin, M. I. A. Tresnawan, S. E. Prasetyo, G. Wijaya, and W. Chen,
 > "When Does Workload Forecasting Pay Off? A Cross-Provider Benchmark of LLM Inference Load with a Regime-Safe Combiner Selector,"
 > submitted to *IEEE Transactions on Cloud Computing*, 2026.
+
+* Repository: https://github.com/syamhaeruddin/llm-inference-load-forecasting
+* Archived release (Zenodo): https://doi.org/10.5281/zenodo.24189585
 
 The repository benchmarks persistence, statistical, tree-based, recurrent, and stacked forecasters on two production LLM inference traces
 (Azure LLM Inference Trace 2024 and 42 GPU clusters of Alibaba cluster-trace-v2026-maas) at 5-60 min horizons, measures decomposition
@@ -84,7 +89,11 @@ The derived series and results in this repository are released under CC BY 4.0; 
 
 ## Citation
 
-If you use this repository, please cite the manuscript above (see `CITATION.cff`). The reference will be updated after publication.
+If you use this repository, please cite the manuscript above and the archived code and data:
+
+> Haeruddin, M. I. A. Tresnawan, S. E. Prasetyo, G. Wijaya, and W. Chen, "LLM Inference Load Forecasting: code and data," Zenodo, v1.0.1, 2026, doi: 10.5281/zenodo.24189585.
+
+See also `CITATION.cff`. The manuscript reference will be updated after publication.
 
 ## Contact
 
