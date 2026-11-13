@@ -1,0 +1,182 @@
+{
+  "horizons": [
+    1,
+    3,
+    6,
+    12
+  ],
+  "seeds": [
+    0
+  ],
+  "epochs": 60,
+  "patience": 8,
+  "top_dl": 5,
+  "max_clusters": 0,
+  "quick": false,
+  "resume": true,
+  "tag": "full",
+  "clusters": [
+    {
+      "key": "c20",
+      "cluster_id": "cluster_2230b0365a15ba052301b7ef832b5c7a096500433ae429221a8ace88c176be71",
+      "gpu_count_mean": 1485.5505952380952,
+      "has_gru": true,
+      "seconds": 1077
+    },
+    {
+      "key": "c21",
+      "cluster_id": "cluster_79c362104a3ac0a6386c8c488c018c0fa4601c654467676c829f7dbb7f0b52be",
+      "gpu_count_mean": 1470.5654761904761,
+      "has_gru": true,
+      "seconds": 1080
+    },
+    {
+      "key": "c22",
+      "cluster_id": "cluster_09a44fe5de192cd85155678f434c81914ac5d9e7b96425a39a2435e435fecaed",
+      "gpu_count_mean": 1055.8407738095239,
+      "has_gru": true,
+      "seconds": 1355
+    },
+    {
+      "key": "c23",
+      "cluster_id": "cluster_7afd9e80a2fc90ec5047aff995327d789a1c7c650cda5c9bbefb5633152146f3",
+      "gpu_count_mean": 1036.7713293650793,
+      "has_gru": true,
+      "seconds": 1173
+    },
+    {
+      "key": "c24",
+      "cluster_id": "cluster_e595650050a7d82b9a694c3206341623b2346558963ad9a824aa8a655161c265",
+      "gpu_count_mean": 1028.6686507936508,
+      "has_gru": true,
+      "seconds": 1087
+    },
+    {
+      "key": "c25",
+      "cluster_id": "cluster_92eeed1e25d6d0340b9edfa102d3229a257971959264742b36e54a16297c7d2f",
+      "gpu_count_mean": 928.187003968254,
+      "has_gru": false,
+      "seconds": 25
+    },
+    {
+      "key": "c26",
+      "cluster_id": "cluster_e3300d6ec9285f4e65d6b7e98ac5d607a97ec922534fecc547cb1e38a829129a",
+      "gpu_count_mean": 850.109126984127,
+      "has_gru": false,
+      "seconds": 21
+    },
+    {
+      "key": "c27",
+      "cluster_id": "cluster_3f46529c7be4f1bb5a26004b44a9c6d6230ed42ed0800d876a70cf1e15be115d",
+      "gpu_count_mean": 812.2460317460317,
+      "has_gru": false,
+      "seconds": 25
+    },
+    {
+      "key": "c28",
+      "cluster_id": "cluster_0fc8e6058e6cacdfb28e61f48a487b320c8909264172b7c470771e47b070d950",
+      "gpu_count_mean": 767.3561507936508,
+      "has_gru": false,
+      "seconds": 24
+    },
+    {
+      "key": "c29",
+      "cluster_id": "cluster_f1bde032447fc395b95d84c58c37491a355c93365f9c4e62085416fb6a2e1759",
+      "gpu_count_mean": 746.1760912698413,
+      "has_gru": false,
+      "seconds": 28
+    },
+    {
+      "key": "c30",
+      "cluster_id": "cluster_f936540f41f14c10adffd378e27312164bf2d832cc5e0953ae73ffdd6b0124da",
+      "gpu_count_mean": 692.9494047619048,
+      "has_gru": false,
+      "seconds": 26
+    },
+    {
+      "key": "c31",
+      "cluster_id": "cluster_ee6ad308d0571f9d3923211b9ec05c9cbf3c33b3171d0717935913f1aca15fe4",
+      "gpu_count_mean": 656.2772817460317,
+      "has_gru": false,
+      "seconds": 24
+    },
+    {
+      "key": "c32",
+      "cluster_id": "cluster_67175a51b48113cd8108771a8f95806a036104098070340750d191a2f652c18d",
+      "gpu_count_mean": 490.297123015873,
+      "has_gru": false,
+      "seconds": 30
+    },
+    {
+      "key": "c33",
+      "cluster_id": "cluster_413634def7fb573181b3701feba3fa81197c02d1df042210971e7bd15d670c0a",
+      "gpu_count_mean": 402.0203373015873,
+      "has_gru": false,
+      "seconds": 26
+    },
+    {
+      "key": "c34",
+      "cluster_id": "cluster_14363218dfe56a696dedb511da231fefb688bba39427e52e739caa121fff2857",
+      "gpu_count_mean": 401.9280753968254,
+      "has_gru": false,
+      "seconds": 29
+    },
+    {
+      "key": "c35",
+      "cluster_id": "cluster_f8e72bf0ebe4a0c3f0378107503103764939392f5d885fb8cd7000df9e27fc32",
+      "gpu_count_mean": 95.8015873015873,
+      "has_gru": false,
+      "seconds": 17
+    },
+    {
+      "key": "c36",
+      "cluster_id": "cluster_64c648d4f0766cd66cfbad2824c9bc2c46af0d5d814ffab7d5b0b150aa293f9a",
+      "gpu_count_mean": 77.02480158730158,
+      "has_gru": false,
+      "seconds": 28
+    },
+    {
+      "key": "c37",
+      "cluster_id": "cluster_bebeae66c2231b1e7ff9064b88c693bc46d8fc84f67b6f014c4db109d07c8af4",
+      "gpu_count_mean": 64.00297619047619,
+      "has_gru": false,
+      "seconds": 14
+    },
+    {
+      "key": "c38",
+      "cluster_id": "cluster_37eadcbcd5c71c668f8bce3b5919a990a3e345889a6b33fd4d3ba3d4860197cf",
+      "gpu_count_mean": 62.0,
+      "has_gru": false,
+      "seconds": 13
+    },
+    {
+      "key": "c39",
+      "cluster_id": "cluster_66af3e688ec5bdf0841173e726bf9962faebe3c348c495af3cbadd68ce016c0b",
+      "gpu_count_mean": 55.60267857142857,
+      "has_gru": false,
+      "seconds": 19
+    },
+    {
+      "key": "c40",
+      "cluster_id": "cluster_af6274fa7b93f0a65a3492a0fcea86338423eb60ae310fe14d674f234aaf7c9d",
+      "gpu_count_mean": 31.113095238095237,
+      "has_gru": false,
+      "seconds": 31
+    },
+    {
+      "key": "c41",
+      "cluster_id": "cluster_e52fbc6e23024eed23c1a050d5b1aaa849158a898c4b53e590b4a71ec796accb",
+      "gpu_count_mean": 25.0,
+      "has_gru": false,
+      "seconds": 15
+    },
+    {
+      "key": "c42",
+      "cluster_id": "cluster_08710f07d1c4adfe50cdf741d481e6e13dfae1c0693720751f37aac1abb94894",
+      "gpu_count_mean": 21.407738095238095,
+      "has_gru": false,
+      "seconds": 22
+    }
+  ],
+  "total_seconds": 6190
+}

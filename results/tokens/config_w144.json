@@ -1,0 +1,46 @@
+{
+  "services": [
+    "code",
+    "conv"
+  ],
+  "horizons": [
+    1,
+    3,
+    6,
+    12
+  ],
+  "models": [
+    "naive",
+    "seasonal_naive",
+    "ar_ridge",
+    "hgb",
+    "lstm",
+    "gru",
+    "tcn",
+    "transformer"
+  ],
+  "folds": 2,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "epochs": 60,
+  "patience": 8,
+  "quick": false,
+  "window": 144,
+  "tag": "w144",
+  "season": 288,
+  "target": "total_tokens",
+  "cal_cols": [
+    "hod_sin",
+    "hod_cos",
+    "is_weekend"
+  ],
+  "comp_cols": [
+    "ctx_mean",
+    "gen_mean",
+    "long_prompt_share"
+  ],
+  "total_seconds": 8838
+}

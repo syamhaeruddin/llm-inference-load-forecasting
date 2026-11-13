@@ -1,0 +1,13 @@
+variant,model,sMAPE
+causal,ar_ridge,102.31
+causal,hgb,82.26
+causal,naive,84.96
+causal,seasonal_naive,81.95
+noncausal,ar_ridge,73.71
+noncausal,hgb,66.78
+noncausal,naive,84.96
+noncausal,seasonal_naive,81.95
+raw,ar_ridge,77.7
+raw,hgb,76.53
+raw,naive,84.96
+raw,seasonal_naive,81.95

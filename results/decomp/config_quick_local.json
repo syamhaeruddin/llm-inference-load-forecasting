@@ -1,0 +1,50 @@
+{
+  "services": [
+    "code"
+  ],
+  "horizons": [
+    3
+  ],
+  "variants": [
+    "raw",
+    "diff",
+    "causal",
+    "noncausal"
+  ],
+  "models": [
+    "naive",
+    "seasonal_naive",
+    "ar_ridge",
+    "hgb"
+  ],
+  "folds": 1,
+  "seeds": [
+    0
+  ],
+  "epochs": 3,
+  "patience": 2,
+  "quick": true,
+  "tag": "quick_local",
+  "window": 144,
+  "season": 288,
+  "w_days": 1,
+  "leakage_test": {
+    "raw": {
+      "features_unchanged": true,
+      "baseline_unchanged": true
+    },
+    "diff": {
+      "features_unchanged": true,
+      "baseline_unchanged": true
+    },
+    "causal": {
+      "features_unchanged": true,
+      "baseline_unchanged": true
+    },
+    "noncausal": {
+      "features_unchanged": false,
+      "baseline_unchanged": false
+    }
+  },
+  "total_seconds": 1
+}

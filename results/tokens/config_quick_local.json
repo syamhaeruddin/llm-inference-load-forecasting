@@ -1,0 +1,40 @@
+{
+  "services": [
+    "code"
+  ],
+  "horizons": [
+    1
+  ],
+  "models": [
+    "naive",
+    "seasonal_naive",
+    "ar_ridge",
+    "hgb",
+    "lstm",
+    "gru",
+    "tcn",
+    "transformer"
+  ],
+  "folds": 1,
+  "seeds": [
+    0
+  ],
+  "epochs": 3,
+  "patience": 2,
+  "quick": true,
+  "tag": "quick_local",
+  "window": 288,
+  "season": 288,
+  "target": "total_tokens",
+  "cal_cols": [
+    "hod_sin",
+    "hod_cos",
+    "is_weekend"
+  ],
+  "comp_cols": [
+    "ctx_mean",
+    "gen_mean",
+    "long_prompt_share"
+  ],
+  "total_seconds": 62
+}

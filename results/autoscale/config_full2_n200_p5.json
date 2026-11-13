@@ -1,0 +1,26 @@
+{
+  "N_REF": 200,
+  "N_MIN": 1,
+  "N_MAX": 400,
+  "PENALTY": 5.0,
+  "services": [
+    "code",
+    "conv"
+  ],
+  "horizons": [
+    1,
+    3,
+    6,
+    12
+  ],
+  "margins": [
+    0.0,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "tag": "full2_n200_p5",
+  "nref": 200,
+  "penalty": 5.0,
+  "no_fig": true
+}

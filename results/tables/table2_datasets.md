@@ -1,0 +1,12 @@
+| deret                                             |    n | langkah   | satuan        |       rata-rata |               sd |            min |            maks |   acf_24h |   rasio_profil_harian |
+|:--------------------------------------------------|-----:|:----------|:--------------|----------------:|-----------------:|---------------:|----------------:|----------:|----------------------:|
+| Azure code: total_tokens                          | 2016 | 5 mnt     | token/5 mnt   |     2.1121e+07  |      1.87603e+07 |    1.30906e+06 |     7.21191e+07 |     0.636 |                 0.583 |
+| Azure code: requests                              | 2016 | 5 mnt     | request/5 mnt |  8335.17        |   7103.72        |  543           | 27033           |     0.647 |                 0.605 |
+| Azure conv: total_tokens                          | 2016 | 5 mnt     | token/5 mnt   |     2.35265e+07 |      6.78428e+06 |    1.02403e+07 |     4.06989e+07 |     0.298 |                 0.253 |
+| Azure conv: requests                              | 2016 | 5 mnt     | request/5 mnt | 13543.6         |   4004.6         | 5650           | 24255           |     0.325 |                 0.288 |
+| Alibaba: sm_util_w, 42 cluster (median; min–maks) | 2016 | 5 mnt     | %             |    32.738       |     10.456       |  nan           |   nan           |     0.27  |                 0.308 |
+| Alibaba: sm_util_w, seluruh platform              | 2016 | 5 mnt     | %             |    26.9         |      5.011       |   11.472       |    36.013       |     0.359 |                 0.431 |
+| Alibaba: gpu_mem_util_w, seluruh platform         | 2016 | 5 mnt     | %             |    81.982       |      3.242       |   69.276       |    87.999       |     0.58  |                 0.565 |
+| DCT Alibaba 2018: cpu                             | 2243 | 300 dtk   | %             |    40.176       |      9.789       |   16.127       |    79.074       |     0.481 |                 0.434 |
+| DCT Google 2019: cpu                              | 8064 | 300 dtk   | %             |    47.282       |      3.991       |   32.029       |    59.244       |     0.294 |                 0.171 |
+| DCT Azure v2: cpu                                 | 8640 | 300 dtk   | core          |     6.18458e+06 | 429728           |    5.18868e+06 |     7.81235e+06 |     0.564 |                 0.306 |

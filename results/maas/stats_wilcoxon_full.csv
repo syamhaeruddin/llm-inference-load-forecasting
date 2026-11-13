@@ -1,0 +1,9 @@
+h,test,stat,p
+1,wilcoxon meta_select < naive,97.0,0.691754294503184
+1,wilcoxon meta_select < best_single,80.0,0.40534849842988596
+3,wilcoxon meta_select < naive,193.0,0.6716466421159335
+3,wilcoxon meta_select < best_single,179.0,0.5354164950114007
+6,wilcoxon meta_select < naive,189.0,0.5
+6,wilcoxon meta_select < best_single,143.0,0.2045625452838125
+12,wilcoxon meta_select < naive,346.0,0.6941868643264085
+12,wilcoxon meta_select < best_single,245.0,0.12578589146629082

@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the manuscript below."
+title: "LLM Inference Load Forecasting: code and data"
+authors:
+  - family-names: Haeruddin
+    affiliation: "Universitas Internasional Batam"
+    email: haeruddin@uib.ac.id
+  - family-names: Tresnawan
+    given-names: Muhammad Ilham Ashiddiq
+    affiliation: "Universitas Internasional Batam"
+  - family-names: Prasetyo
+    given-names: Stefanus Eko
+    affiliation: "Universitas Internasional Batam"
+  - family-names: Wijaya
+    given-names: Gautama
+    affiliation: "Universitas Internasional Batam"
+  - family-names: Chen
+    given-names: William
+    affiliation: "Universitas Internasional Batam"
+license: MIT
+preferred-citation:
+  type: article
+  title: "When Does Workload Forecasting Pay Off? A Cross-Provider Benchmark of LLM Inference Load with a Regime-Safe Combiner Selector"
+  authors:
+    - family-names: Haeruddin
+    - family-names: Tresnawan
+      given-names: Muhammad Ilham Ashiddiq
+    - family-names: Prasetyo
+      given-names: Stefanus Eko
+    - family-names: Wijaya
+      given-names: Gautama
+    - family-names: Chen
+      given-names: William
+  journal: "IEEE Transactions on Cloud Computing (submitted)"
+  year: 2026

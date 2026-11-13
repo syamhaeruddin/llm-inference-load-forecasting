@@ -1,0 +1,14 @@
+# Versi yang terbukti lolos Smart App Control Windows 11 (SAC memblokir DLL yang belum bereputasi;
+# verdict bisa berubah dari waktu ke waktu: pandas 3.1.0 dan torch 2.15 berjalan 3-5 Nov lalu diblokir 5 Nov sore).
+numpy>=1.26,<3
+pandas==2.2.3
+scipy>=1.12
+scikit-learn==1.6.1
+matplotlib>=3.8
+pyarrow>=15
+tabulate>=0.9
+datacentertracesdatasets==0.3.2
+# statsmodels: hanya dipakai 02_baseline_forecast.py (Holt-Winters versi awal); diblokir SAC sejak 5 Nov
+statsmodels>=0.14
+# PyTorch CPU: pip install torch==2.6.0 --index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0
